@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:bower.json">
+   </FileRef>
+   <FileRef
+      location = "group:config.xml">
+   </FileRef>
+   <FileRef
+      location = "group:gulpfile.js">
+   </FileRef>
+   <Group
+      location = "group:hooks"
+      name = "hooks">
+      <Group
+         location = "group:after_platform_add"
+         name = "after_platform_add">
+      </Group>
+      <Group
+         location = "group:after_plugin_add"
+         name = "after_plugin_add">
+      </Group>
+      <Group
+         location = "group:after_plugin_rm"
+         name = "after_plugin_rm">
+      </Group>
+      <Group
+         location = "group:after_prepare"
+         name = "after_prepare">
+         <FileRef
+            location = "group:010_add_platform_class.js">
+         </FileRef>
+         <FileRef
+            location = "group:020_remove_sass_from_platforms.js">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:before_platform_add"
+         name = "before_platform_add">
+         <FileRef
+            location = "group:init_directories.js">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:ionic.project">
+   </FileRef>
+   <FileRef
+      location = "group:layer1.png">
+   </FileRef>
+   <FileRef
+      location = "group:layer2.png">
+   </FileRef>
+   <FileRef
+      location = "group:layer3.png">
+   </FileRef>
+   <FileRef
+      location = "group:layer4.png">
+   </FileRef>
+   <FileRef
+      location = "group:layer5.png">
+   </FileRef>
+   <FileRef
+      location = "group:layer6.png">
+   </FileRef>
+   <FileRef
+      location = "group:package.json">
+   </FileRef>
+   <Group
+      location = "group:platforms"
+      name = "platforms">
+      <Group
+         location = "group:ios"
+         name = "ios">
+         <Group
+            location = "group:build"
+            name = "build">
+            <Group
+               location = "group:device"
+               name = "device">
+               <Group
+                  location = "group:include"
+                  name = "include">
+                  <Group
+                     location = "group:Cordova"
+                     name = "Cordova">
+                     <FileRef
+                        location = "group:CDV.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVAvailability.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVAvailabilityDeprecated.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVCommandDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVCommandDelegateImpl.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVCommandQueue.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVConfigParser.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVDebug.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVInvokedUrlCommand.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVJSON.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVLocalStorage.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVPlugin.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVPluginResult.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVScreenOrientationDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVShared.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVTimer.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVURLProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVUserAgentUtil.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVWebViewDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CDVWhitelist.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSArray+Comparisons.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSData+Base64.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSDictionary+Extensions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSMutableArray+QueueAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIDevice+Extensions.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:libCordova.a">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:sharedpch"
+               name = "sharedpch">
+               <Group
+                  location = "group:CordovaLib_Prefix-ewwlfeovblbbhjaaxdjvsrpskccl"
+                  name = "CordovaLib_Prefix-ewwlfeovblbbhjaaxdjvsrpskccl">
+                  <FileRef
+                     location = "group:CordovaLib_Prefix.pch.d">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CordovaLib_Prefix.pch.data">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CordovaLib_Prefix.pch.dia">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CordovaLib_Prefix.pch.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CordovaLib_Prefix.pch.pch.hash-criteria">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:cordova"
+            name = "cordova">
+            <FileRef
+               location = "group:apple_ios_version">
+            </FileRef>
+            <FileRef
+               location = "group:apple_osx_version">
+            </FileRef>
+            <FileRef
+               location = "group:apple_xcode_version">
+            </FileRef>
+            <FileRef
+               location = "group:build">
+            </FileRef>
+            <FileRef
+               location = "group:build-debug.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:build-release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:build.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:check_reqs">
+            </FileRef>
+            <FileRef
+               location = "group:clean">
+            </FileRef>
+            <FileRef
+               location = "group:defaults.xml">
+            </FileRef>
+            <FileRef
+               location = "group:emulate">
+            </FileRef>
+            <Group
+               location = "group:lib"
+               name = "lib">
+               <FileRef
+                  location = "group:copy-www-build-step.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:install-device">
+               </FileRef>
+               <FileRef
+                  location = "group:install-emulator">
+               </FileRef>
+               <FileRef
+                  location = "group:list-devices">
+               </FileRef>
+               <FileRef
+                  location = "group:list-emulator-images">
+               </FileRef>
+               <FileRef
+                  location = "group:list-started-emulators">
+               </FileRef>
+               <FileRef
+                  location = "group:start-emulator">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:log">
+            </FileRef>
+            <FileRef
+               location = "group:run">
+            </FileRef>
+            <FileRef
+               location = "group:version">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CordovaLib"
+            name = "CordovaLib">
+            <Group
+               location = "group:build"
+               name = "build">
+               <Group
+                  location = "group:CordovaLib.build"
+                  name = "CordovaLib.build">
+                  <Group
+                     location = "group:Debug-iphoneos"
+                     name = "Debug-iphoneos">
+                     <Group
+                        location = "group:CordovaLib.build"
+                        name = "CordovaLib.build">
+                        <FileRef
+                           location = "group:Cordova-all-non-framework-target-headers.hmap">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Cordova-all-target-headers.hmap">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Cordova-generated-files.hmap">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Cordova-own-target-headers.hmap">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Cordova-project-headers.hmap">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Cordova.hmap">
+                        </FileRef>
+                        <FileRef
+                           location = "group:dgph">
+                        </FileRef>
+                        <Group
+                           location = "group:Objects-normal"
+                           name = "Objects-normal">
+                           <Group
+                              location = "group:armv7"
+                              name = "armv7">
+                              <FileRef
+                                 location = "group:CDVCommandDelegateImpl.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVCommandDelegateImpl.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVCommandDelegateImpl.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVCommandQueue.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVCommandQueue.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVCommandQueue.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVConfigParser.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVConfigParser.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVConfigParser.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVInvokedUrlCommand.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVInvokedUrlCommand.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVInvokedUrlCommand.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVJSON.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVJSON.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVJSON.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVLocalStorage.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVLocalStorage.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVLocalStorage.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVPlugin.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVPlugin.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVPlugin.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVPluginResult.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVPluginResult.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVPluginResult.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVTimer.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVTimer.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVTimer.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVURLProtocol.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVURLProtocol.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVURLProtocol.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVUserAgentUtil.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVUserAgentUtil.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVUserAgentUtil.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVViewController.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVViewController.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVViewController.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVWebViewDelegate.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVWebViewDelegate.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVWebViewDelegate.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVWhitelist.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVWhitelist.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:CDVWhitelist.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:Cordova.LinkFileList">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSArray+Comparisons.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSArray+Comparisons.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSArray+Comparisons.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSData+Base64.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSData+Base64.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSData+Base64.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSDictionary+Extensions.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSDictionary+Extensions.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSDictionary+Extensions.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSMutableArray+QueueAdditions.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSMutableArray+QueueAdditions.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:NSMutableArray+QueueAdditions.o">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:UIDevice+Extensions.d">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:UIDevice+Extensions.dia">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:UIDevice+Extensions.o">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                     </Group>
+                  </Group>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Classes"
+               name = "Classes">
+               <FileRef
+                  location = "group:CDV.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVAvailability.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVAvailabilityDeprecated.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVCommandDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVCommandDelegateImpl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVCommandDelegateImpl.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVCommandQueue.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVCommandQueue.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVConfigParser.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVConfigParser.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVDebug.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVInvokedUrlCommand.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVInvokedUrlCommand.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVJSON.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVJSON.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVLocalStorage.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVLocalStorage.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVPlugin.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVPlugin.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVPluginResult.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVPluginResult.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVScreenOrientationDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVShared.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVTimer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVTimer.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVURLProtocol.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVURLProtocol.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVUserAgentUtil.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVUserAgentUtil.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVWebViewDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVWebViewDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVWhitelist.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CDVWhitelist.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSArray+Comparisons.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSArray+Comparisons.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSData+Base64.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSData+Base64.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSDictionary+Extensions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSDictionary+Extensions.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSMutableArray+QueueAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSMutableArray+QueueAdditions.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIDevice+Extensions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIDevice+Extensions.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:cordova.js">
+            </FileRef>
+            <FileRef
+               location = "group:CordovaLib.xcodeproj">
+            </FileRef>
+            <FileRef
+               location = "group:CordovaLib_Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:VERSION">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:naut-ion"
+            name = "naut-ion">
+            <Group
+               location = "group:Classes"
+               name = "Classes">
+               <FileRef
+                  location = "group:AppDelegate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AppDelegate.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MainViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MainViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MainViewController.xib">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:config.xml">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:naut-ion-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:naut-ion-Prefix.pch">
+            </FileRef>
+            <Group
+               location = "group:Plugins"
+               name = "Plugins">
+               <Group
+                  location = "group:com.ionic.keyboard"
+                  name = "com.ionic.keyboard">
+                  <FileRef
+                     location = "group:IonicKeyboard.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:IonicKeyboard.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIWebViewExtension.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIWebViewExtension.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:org.apache.cordova.console"
+                  name = "org.apache.cordova.console">
+                  <FileRef
+                     location = "group:CDVLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CDVLogger.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:org.apache.cordova.device"
+                  name = "org.apache.cordova.device">
+                  <FileRef
+                     location = "group:CDVDevice.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CDVDevice.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Resources"
+               name = "Resources">
+               <Group
+                  location = "group:icons"
+                  name = "icons">
+                  <FileRef
+                     location = "group:icon-40.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-40@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-50.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-50@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-60.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-60@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-60@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-72.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-72@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-76.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-76@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon-small@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:splash"
+                  name = "splash">
+                  <FileRef
+                     location = "group:Default-568h@2x~iphone.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-667h.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-736h.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-Landscape-736h.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-Landscape@2x~ipad.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-Landscape~ipad.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-Portrait@2x~ipad.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default-Portrait~ipad.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default@2x~iphone.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Default~iphone.png">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:naut-ion.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:platform_www"
+            name = "platform_www">
+            <FileRef
+               location = "group:cordova.js">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:www"
+            name = "www">
+            <FileRef
+               location = "group:cordova.js">
+            </FileRef>
+            <FileRef
+               location = "group:cordova_plugins.js">
+            </FileRef>
+            <Group
+               location = "group:css"
+               name = "css">
+               <FileRef
+                  location = "group:style.css">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:img"
+               name = "img">
+               <FileRef
+                  location = "group:ionic.png">
+               </FileRef>
+               <FileRef
+                  location = "group:layer1.png">
+               </FileRef>
+               <FileRef
+                  location = "group:layer2.png">
+               </FileRef>
+               <FileRef
+                  location = "group:layer3.png">
+               </FileRef>
+               <FileRef
+                  location = "group:layer4.png">
+               </FileRef>
+               <FileRef
+                  location = "group:layer5.png">
+               </FileRef>
+               <FileRef
+                  location = "group:layer6.png">
+               </FileRef>
+               <FileRef
+                  location = "group:robot.png">
+               </FileRef>
+               <FileRef
+                  location = "group:shadow.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:index.html">
+            </FileRef>
+            <Group
+               location = "group:js"
+               name = "js">
+               <FileRef
+                  location = "group:app.js">
+               </FileRef>
+               <FileRef
+                  location = "group:jquery.parallax.js">
+               </FileRef>
+               <FileRef
+                  location = "group:jquery.parallax.min.js">
+               </FileRef>
+               <FileRef
+                  location = "group:parallax.js">
+               </FileRef>
+               <FileRef
+                  location = "group:parallax.min.js">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:lib"
+               name = "lib">
+               <Group
+                  location = "group:angular"
+                  name = "angular">
+                  <FileRef
+                     location = "group:angular-csp.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angular.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angular.min.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angular.min.js.gzip">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angular.min.js.map">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bower.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:package.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:angular-animate"
+                  name = "angular-animate">
+                  <FileRef
+                     location = "group:angular-animate.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angular-animate.min.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angular-animate.min.js.map">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bower.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:package.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:angular-sanitize"
+                  name = "angular-sanitize">
+                  <FileRef
+                     location = "group:angular-sanitize.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angular-sanitize.min.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:angular-sanitize.min.js.map">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bower.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:package.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:angular-ui-router"
+                  name = "angular-ui-router">
+                  <Group
+                     location = "group:api"
+                     name = "api">
+                     <FileRef
+                        location = "group:angular-ui-router.d.ts">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:bower.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CHANGELOG.md">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CONTRIBUTING.md">
+                  </FileRef>
+                  <FileRef
+                     location = "group:LICENSE">
+                  </FileRef>
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+                  <Group
+                     location = "group:release"
+                     name = "release">
+                     <FileRef
+                        location = "group:angular-ui-router.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:angular-ui-router.min.js">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:src"
+                     name = "src">
+                     <FileRef
+                        location = "group:common.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:resolve.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:state.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:stateDirectives.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:stateFilters.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:templateFactory.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:urlMatcherFactory.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:urlRouter.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:view.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:viewDirective.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:viewScroll.js">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:ionic"
+                  name = "ionic">
+                  <FileRef
+                     location = "group:bower.json">
+                  </FileRef>
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:ionic.css">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionic.min.css">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:fonts"
+                     name = "fonts">
+                     <FileRef
+                        location = "group:ionicons.eot">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionicons.svg">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionicons.ttf">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionicons.woff">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:js"
+                     name = "js">
+                     <FileRef
+                        location = "group:ionic-angular.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionic-angular.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionic.bundle.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionic.bundle.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionic.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ionic.min.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:ngCordova"
+                  name = "ngCordova">
+                  <FileRef
+                     location = "group:bower.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CHANGELOG.md">
+                  </FileRef>
+                  <Group
+                     location = "group:dist"
+                     name = "dist">
+                     <FileRef
+                        location = "group:ng-cordova-mocks.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ng-cordova-mocks.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ng-cordova.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ng-cordova.min.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:LICENSE">
+                  </FileRef>
+                  <FileRef
+                     location = "group:package.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:platform"
+                  name = "platform">
+                  <FileRef
+                     location = "group:bower.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:LICENSE.txt">
+                  </FileRef>
+                  <FileRef
+                     location = "group:platform.js">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:plugins"
+      name = "plugins">
+      <Group
+         location = "group:com.ionic.keyboard"
+         name = "com.ionic.keyboard">
+         <FileRef
+            location = "group:IonicKeyboard.h">
+         </FileRef>
+         <FileRef
+            location = "group:IonicKeyboard.m">
+         </FileRef>
+         <FileRef
+            location = "group:UIWebViewExtension.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIWebViewExtension.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ios.json">
+      </FileRef>
+      <Group
+         location = "group:org.apache.cordova.console"
+         name = "org.apache.cordova.console">
+         <FileRef
+            location = "group:CDVLogger.h">
+         </FileRef>
+         <FileRef
+            location = "group:CDVLogger.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:org.apache.cordova.device"
+         name = "org.apache.cordova.device">
+         <FileRef
+            location = "group:CDVDevice.h">
+         </FileRef>
+         <FileRef
+            location = "group:CDVDevice.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:README">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:resources"
+      name = "resources">
+      <Group
+         location = "group:android"
+         name = "android">
+         <Group
+            location = "group:icon"
+            name = "icon">
+            <FileRef
+               location = "group:drawable-hdpi-icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-ldpi-icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-mdpi-icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-xhdpi-icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-xxhdpi-icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-xxxhdpi-icon.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:splash"
+            name = "splash">
+            <FileRef
+               location = "group:drawable-land-hdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-land-ldpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-land-mdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-land-xhdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-land-xxhdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-land-xxxhdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-port-hdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-port-ldpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-port-mdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-port-xhdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-port-xxhdpi-screen.png">
+            </FileRef>
+            <FileRef
+               location = "group:drawable-port-xxxhdpi-screen.png">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:icon.png">
+      </FileRef>
+      <Group
+         location = "group:ios"
+         name = "ios">
+         <Group
+            location = "group:icon"
+            name = "icon">
+            <FileRef
+               location = "group:icon-40.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-40@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-50.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-50@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-60.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-60@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-60@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-72.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-72@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-76.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-76@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-small.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-small@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon-small@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:icon@2x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:splash"
+            name = "splash">
+            <FileRef
+               location = "group:Default-568h@2x~iphone.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default-667h.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default-736h.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default-Landscape-736h.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default-Landscape@2x~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default-Landscape~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default-Portrait@2x~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default-Portrait~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default@2x~iphone.png">
+            </FileRef>
+            <FileRef
+               location = "group:Default~iphone.png">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:splash.png">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:robot.png">
+   </FileRef>
+   <Group
+      location = "group:scss"
+      name = "scss">
+      <FileRef
+         location = "group:ionic.app.scss">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:www"
+      name = "www">
+      <Group
+         location = "group:css"
+         name = "css">
+         <FileRef
+            location = "group:style.css">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:img"
+         name = "img">
+         <FileRef
+            location = "group:ionic.png">
+         </FileRef>
+         <FileRef
+            location = "group:layer1.png">
+         </FileRef>
+         <FileRef
+            location = "group:layer2.png">
+         </FileRef>
+         <FileRef
+            location = "group:layer3.png">
+         </FileRef>
+         <FileRef
+            location = "group:layer4.png">
+         </FileRef>
+         <FileRef
+            location = "group:layer5.png">
+         </FileRef>
+         <FileRef
+            location = "group:smoke1.png">
+         </FileRef>
+         <FileRef
+            location = "group:layer6.png">
+         </FileRef>
+         <FileRef
+            location = "group:robot1.png">
+         </FileRef>
+         <FileRef
+            location = "group:shadow1.png">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
+      <Group
+         location = "group:js"
+         name = "js">
+         <FileRef
+            location = "group:app.js">
+         </FileRef>
+         <FileRef
+            location = "group:jquery.parallax.js">
+         </FileRef>
+         <FileRef
+            location = "group:jquery.parallax.min.js">
+         </FileRef>
+         <FileRef
+            location = "group:parallax.js">
+         </FileRef>
+         <FileRef
+            location = "group:parallax.min.js">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:lib"
+         name = "lib">
+         <Group
+            location = "group:angular"
+            name = "angular">
+            <FileRef
+               location = "group:angular-csp.css">
+            </FileRef>
+            <FileRef
+               location = "group:angular.js">
+            </FileRef>
+            <FileRef
+               location = "group:angular.min.js">
+            </FileRef>
+            <FileRef
+               location = "group:angular.min.js.gzip">
+            </FileRef>
+            <FileRef
+               location = "group:angular.min.js.map">
+            </FileRef>
+            <FileRef
+               location = "group:bower.json">
+            </FileRef>
+            <FileRef
+               location = "group:package.json">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:angular-animate"
+            name = "angular-animate">
+            <FileRef
+               location = "group:angular-animate.js">
+            </FileRef>
+            <FileRef
+               location = "group:angular-animate.min.js">
+            </FileRef>
+            <FileRef
+               location = "group:angular-animate.min.js.map">
+            </FileRef>
+            <FileRef
+               location = "group:bower.json">
+            </FileRef>
+            <FileRef
+               location = "group:package.json">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:angular-sanitize"
+            name = "angular-sanitize">
+            <FileRef
+               location = "group:angular-sanitize.js">
+            </FileRef>
+            <FileRef
+               location = "group:angular-sanitize.min.js">
+            </FileRef>
+            <FileRef
+               location = "group:angular-sanitize.min.js.map">
+            </FileRef>
+            <FileRef
+               location = "group:bower.json">
+            </FileRef>
+            <FileRef
+               location = "group:package.json">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:angular-ui-router"
+            name = "angular-ui-router">
+            <Group
+               location = "group:api"
+               name = "api">
+               <FileRef
+                  location = "group:angular-ui-router.d.ts">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:bower.json">
+            </FileRef>
+            <FileRef
+               location = "group:CHANGELOG.md">
+            </FileRef>
+            <FileRef
+               location = "group:CONTRIBUTING.md">
+            </FileRef>
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:release"
+               name = "release">
+               <FileRef
+                  location = "group:angular-ui-router.js">
+               </FileRef>
+               <FileRef
+                  location = "group:angular-ui-router.min.js">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:src"
+               name = "src">
+               <FileRef
+                  location = "group:common.js">
+               </FileRef>
+               <FileRef
+                  location = "group:resolve.js">
+               </FileRef>
+               <FileRef
+                  location = "group:state.js">
+               </FileRef>
+               <FileRef
+                  location = "group:stateDirectives.js">
+               </FileRef>
+               <FileRef
+                  location = "group:stateFilters.js">
+               </FileRef>
+               <FileRef
+                  location = "group:templateFactory.js">
+               </FileRef>
+               <FileRef
+                  location = "group:urlMatcherFactory.js">
+               </FileRef>
+               <FileRef
+                  location = "group:urlRouter.js">
+               </FileRef>
+               <FileRef
+                  location = "group:view.js">
+               </FileRef>
+               <FileRef
+                  location = "group:viewDirective.js">
+               </FileRef>
+               <FileRef
+                  location = "group:viewScroll.js">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ionic"
+            name = "ionic">
+            <FileRef
+               location = "group:bower.json">
+            </FileRef>
+            <Group
+               location = "group:css"
+               name = "css">
+               <FileRef
+                  location = "group:ionic.css">
+               </FileRef>
+               <FileRef
+                  location = "group:ionic.min.css">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:fonts"
+               name = "fonts">
+               <FileRef
+                  location = "group:ionicons.eot">
+               </FileRef>
+               <FileRef
+                  location = "group:ionicons.svg">
+               </FileRef>
+               <FileRef
+                  location = "group:ionicons.ttf">
+               </FileRef>
+               <FileRef
+                  location = "group:ionicons.woff">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:js"
+               name = "js">
+               <FileRef
+                  location = "group:ionic-angular.js">
+               </FileRef>
+               <FileRef
+                  location = "group:ionic-angular.min.js">
+               </FileRef>
+               <FileRef
+                  location = "group:ionic.bundle.js">
+               </FileRef>
+               <FileRef
+                  location = "group:ionic.bundle.min.js">
+               </FileRef>
+               <FileRef
+                  location = "group:ionic.js">
+               </FileRef>
+               <FileRef
+                  location = "group:ionic.min.js">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:scss"
+               name = "scss">
+               <FileRef
+                  location = "group:_action-sheet.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_animations.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_backdrop.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_badge.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_bar.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_button-bar.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_button.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_checkbox.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_form.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_grid.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_items.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_list.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_loaders.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_loading.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_menu.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_mixins.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_modal.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_platform.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_popover.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_popup.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_progress.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_radio.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_range.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_refresher.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_reset.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_scaffolding.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_select.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_slide-box.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_spinner.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_split-pane.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_tabs.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_toggle.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_transitions.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_type.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_util.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:_variables.scss">
+               </FileRef>
+               <FileRef
+                  location = "group:ionic.scss">
+               </FileRef>
+               <Group
+                  location = "group:ionicons"
+                  name = "ionicons">
+                  <FileRef
+                     location = "group:_ionicons-animation.scss">
+                  </FileRef>
+                  <FileRef
+                     location = "group:_ionicons-font.scss">
+                  </FileRef>
+                  <FileRef
+                     location = "group:_ionicons-icons.scss">
+                  </FileRef>
+                  <FileRef
+                     location = "group:_ionicons-variables.scss">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ionicons.scss">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ngCordova"
+            name = "ngCordova">
+            <FileRef
+               location = "group:bower.json">
+            </FileRef>
+            <FileRef
+               location = "group:CHANGELOG.md">
+            </FileRef>
+            <Group
+               location = "group:dist"
+               name = "dist">
+               <FileRef
+                  location = "group:ng-cordova-mocks.js">
+               </FileRef>
+               <FileRef
+                  location = "group:ng-cordova-mocks.min.js">
+               </FileRef>
+               <FileRef
+                  location = "group:ng-cordova.js">
+               </FileRef>
+               <FileRef
+                  location = "group:ng-cordova.min.js">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:package.json">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:platform"
+            name = "platform">
+            <FileRef
+               location = "group:bower.json">
+            </FileRef>
+            <FileRef
+               location = "group:LICENSE.txt">
+            </FileRef>
+            <FileRef
+               location = "group:platform.js">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>

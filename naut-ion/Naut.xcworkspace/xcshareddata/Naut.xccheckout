@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63476149-A22E-4F0D-B102-55D90246518A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Naut</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E76C57FF9486E0181E68AB2D1336A9766CA716D</key>
+		<string>github.com:tylore/arbiter.git</string>
+		<key>37A061E1F70BAE91F2D20CA95F35AADEBC2B4095</key>
+		<string>github.com:tylore/naut.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>naut-ion/Naut.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E76C57FF9486E0181E68AB2D1336A9766CA716D</key>
+		<string>../../..</string>
+		<key>37A061E1F70BAE91F2D20CA95F35AADEBC2B4095</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:tylore/naut.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>37A061E1F70BAE91F2D20CA95F35AADEBC2B4095</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E76C57FF9486E0181E68AB2D1336A9766CA716D</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37A061E1F70BAE91F2D20CA95F35AADEBC2B4095</string>
+			<key>IDESourceControlWCCName</key>
+			<string>project04</string>
+		</dict>
+	</array>
+</dict>
+</plist>

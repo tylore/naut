@@ -394,6 +394,7 @@
     this.css(element, 'transform', 'translate3d(0,0,0)');
     this.css(element, 'transform-style', 'preserve-3d');
     this.css(element, 'backface-visibility', 'hidden');
+    console.log(this);
   };
 
   Parallax.prototype.setPosition = function(element, x, y) {
