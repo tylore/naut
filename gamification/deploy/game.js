@@ -6,5 +6,5 @@ Parallax.prototype.gameify = function(){
     if(xOffset > 5){
       alert('Get That Corn Out Of My Face')
     }
-  };
+};
 };

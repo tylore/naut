@@ -223,6 +223,7 @@
           body.removeChild(element);
         }
         break;
+
     }
     return featureSupport;
   };
@@ -396,11 +397,16 @@
     this.css(element, 'backface-visibility', 'hidden');
   };
 
+
+
   Parallax.prototype.setPosition = function(element, x, y) {
+
+
+// console.log(x);
+
     x += 'px';
     y += 'px';
 
-    // console.log(xOffset);
     if (this.transform3DSupport) {
       this.css(element, 'transform', 'translate3d('+x+','+y+',0)');
 
@@ -454,25 +460,39 @@
     this.vy += (this.my - this.vy) * this.frictionY;
     for (var i = 0, l = this.layers.length; i < l; i++) {
       var layer = this.layers[i];
+      // Extracts specific layer data
+      var target = this.layers[2];
       var depth = this.depths[i];
       var xOffset = this.vx * depth * (this.invertX ? -1 : 1);
       var yOffset = this.vy * depth * (this.invertY ? -1 : 1);
+      var xTarget = this.vx * 0.40 * (this.invertX ? -1 : 1);
+      var yTarget = this.vy * 0.40 * (this.invertY ? -1 : 1);
 
 
       this.setPosition(layer, xOffset, yOffset);
+      this.gameify(target, xTarget, yTarget);
+
     }
+
     this.raf = requestAnimationFrame(this.onAnimationFrame);
   };
+  Parallax.prototype.gameify = function(target, xTarget, yTarget){
 
-  Parallax.prototype.gameify = function(){
-    var xOffset = this.vx * this.depths[0] * (this.invertX ? -1 : 1);
-    var yOffset = this.vy * this.depths[0] * (this.invertY ? -1 : 1);
-    console.log(xOffset);
-    if(xOffset > 5){
-      alert('Get That Corn Out Of My Face')
-    };
+  var xGame = Math.round(xTarget);
+  console.log(xGame, yTarget);
+
+
+
+
+
+
+  if(xGame > 20 && yTarget < 0){
+    this.layers[1].style.opacity = 0
+  }else{
+  this.layers[1].style.opacity = 1;
+  }
+
   };
-
   Parallax.prototype.onDeviceOrientation = function(event) {
 
     // Validate environment and event properties.
@@ -537,6 +557,7 @@
   // Expose Parallax
   window[NAME] = Parallax;
 })(window, document);
+
 
 /**
  * Request Animation Frame Polyfill.
